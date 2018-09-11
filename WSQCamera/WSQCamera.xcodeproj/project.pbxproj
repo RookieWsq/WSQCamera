@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D23C0AC3F50FF8C9D97C097 /* libPods-WSQCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CE728933CDAE61AC00E7F5 /* libPods-WSQCamera.a */; };
+		10202F3B213E225F000EC4A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10202F3A213E225F000EC4A2 /* AppDelegate.m */; };
+		10202F3E213E225F000EC4A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10202F3D213E225F000EC4A2 /* ViewController.m */; };
+		10202F41213E225F000EC4A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10202F3F213E225F000EC4A2 /* Main.storyboard */; };
+		10202F43213E2260000EC4A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10202F42213E2260000EC4A2 /* Assets.xcassets */; };
+		10202F46213E2260000EC4A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10202F44213E2260000EC4A2 /* LaunchScreen.storyboard */; };
+		10202F49213E2260000EC4A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10202F48213E2260000EC4A2 /* main.m */; };
+		10202F52213E22C3000EC4A2 /* WSQCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10202F51213E22C3000EC4A2 /* WSQCameraViewController.m */; };
+		10202F56213E2C61000EC4A2 /* UIView+FrameChanged.m in Sources */ = {isa = PBXBuildFile; fileRef = 10202F53213E2C61000EC4A2 /* UIView+FrameChanged.m */; };
+		10202F59213E4F1C000EC4A2 /* WSQCameraFiltersCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10202F58213E4F1C000EC4A2 /* WSQCameraFiltersCollectionView.m */; };
+		10202F60213E4F52000EC4A2 /* WSQCameraFiltersCollectionsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10202F5E213E4F52000EC4A2 /* WSQCameraFiltersCollectionsViewCell.m */; };
+		10202F61213E4F52000EC4A2 /* WSQCameraFiltersCollectionsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10202F5F213E4F52000EC4A2 /* WSQCameraFiltersCollectionsViewCell.xib */; };
+		10202F64213E5772000EC4A2 /* WSQCameraFiltersCollectionViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10202F63213E5772000EC4A2 /* WSQCameraFiltersCollectionViewCellModel.m */; };
+		1027E635213FC822009A9EE2 /* WSQImageEditiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1027E634213FC822009A9EE2 /* WSQImageEditiViewController.m */; };
+		105935C52146430B005B7A3B /* CTImageSmearView.m in Sources */ = {isa = PBXBuildFile; fileRef = 105935B92146430A005B7A3B /* CTImageSmearView.m */; };
+		105935C62146430B005B7A3B /* CTImageSmearTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 105935BA2146430A005B7A3B /* CTImageSmearTop.m */; };
+		105935C72146430B005B7A3B /* UIImage+EditImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 105935BC2146430B005B7A3B /* UIImage+EditImageWithColor.m */; };
+		105935C82146430B005B7A3B /* CTImageSmearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105935BD2146430B005B7A3B /* CTImageSmearViewController.m */; };
+		105935C92146430B005B7A3B /* CTImageSmearBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 105935BF2146430B005B7A3B /* CTImageSmearBottom.m */; };
+		105935CA2146430B005B7A3B /* CTImageEditUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 105935C32146430B005B7A3B /* CTImageEditUtil.m */; };
+		10874F7521456FF00017D631 /* PhotoTweaksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10874F6F21456FF00017D631 /* PhotoTweaksViewController.m */; };
+		10874F7621456FF00017D631 /* PhotoTweakView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10874F7121456FF00017D631 /* PhotoTweakView.m */; };
+		10874F7721456FF00017D631 /* UIColor+Tweak.m in Sources */ = {isa = PBXBuildFile; fileRef = 10874F7221456FF00017D631 /* UIColor+Tweak.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AADEE2C98F042AE2A67DC8E /* Pods-WSQCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSQCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSQCamera/Pods-WSQCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		10202F36213E225F000EC4A2 /* WSQCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSQCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10202F39213E225F000EC4A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10202F3A213E225F000EC4A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10202F3C213E225F000EC4A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10202F3D213E225F000EC4A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10202F40213E225F000EC4A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10202F42213E2260000EC4A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10202F45213E2260000EC4A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10202F47213E2260000EC4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10202F48213E2260000EC4A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10202F50213E22C3000EC4A2 /* WSQCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSQCameraViewController.h; sourceTree = "<group>"; };
+		10202F51213E22C3000EC4A2 /* WSQCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSQCameraViewController.m; sourceTree = "<group>"; };
+		10202F53213E2C61000EC4A2 /* UIView+FrameChanged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameChanged.m"; sourceTree = "<group>"; };
+		10202F54213E2C61000EC4A2 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		10202F55213E2C61000EC4A2 /* UIView+FrameChanged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameChanged.h"; sourceTree = "<group>"; };
+		10202F57213E4F1C000EC4A2 /* WSQCameraFiltersCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSQCameraFiltersCollectionView.h; sourceTree = "<group>"; };
+		10202F58213E4F1C000EC4A2 /* WSQCameraFiltersCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSQCameraFiltersCollectionView.m; sourceTree = "<group>"; };
+		10202F5D213E4F52000EC4A2 /* WSQCameraFiltersCollectionsViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSQCameraFiltersCollectionsViewCell.h; sourceTree = "<group>"; };
+		10202F5E213E4F52000EC4A2 /* WSQCameraFiltersCollectionsViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSQCameraFiltersCollectionsViewCell.m; sourceTree = "<group>"; };
+		10202F5F213E4F52000EC4A2 /* WSQCameraFiltersCollectionsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WSQCameraFiltersCollectionsViewCell.xib; sourceTree = "<group>"; };
+		10202F62213E5772000EC4A2 /* WSQCameraFiltersCollectionViewCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSQCameraFiltersCollectionViewCellModel.h; sourceTree = "<group>"; };
+		10202F63213E5772000EC4A2 /* WSQCameraFiltersCollectionViewCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSQCameraFiltersCollectionViewCellModel.m; sourceTree = "<group>"; };
+		1027E633213FC822009A9EE2 /* WSQImageEditiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSQImageEditiViewController.h; sourceTree = "<group>"; };
+		1027E634213FC822009A9EE2 /* WSQImageEditiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSQImageEditiViewController.m; sourceTree = "<group>"; };
+		105935B92146430A005B7A3B /* CTImageSmearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTImageSmearView.m; sourceTree = "<group>"; };
+		105935BA2146430A005B7A3B /* CTImageSmearTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTImageSmearTop.m; sourceTree = "<group>"; };
+		105935BB2146430B005B7A3B /* UIImage+EditImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EditImageWithColor.h"; sourceTree = "<group>"; };
+		105935BC2146430B005B7A3B /* UIImage+EditImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EditImageWithColor.m"; sourceTree = "<group>"; };
+		105935BD2146430B005B7A3B /* CTImageSmearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTImageSmearViewController.m; sourceTree = "<group>"; };
+		105935BE2146430B005B7A3B /* CTImageEditUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTImageEditUtil.h; sourceTree = "<group>"; };
+		105935BF2146430B005B7A3B /* CTImageSmearBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTImageSmearBottom.m; sourceTree = "<group>"; };
+		105935C02146430B005B7A3B /* CTImageSmearBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTImageSmearBottom.h; sourceTree = "<group>"; };
+		105935C12146430B005B7A3B /* CTImageSmearTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTImageSmearTop.h; sourceTree = "<group>"; };
+		105935C22146430B005B7A3B /* CTImageSmearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTImageSmearView.h; sourceTree = "<group>"; };
+		105935C32146430B005B7A3B /* CTImageEditUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTImageEditUtil.m; sourceTree = "<group>"; };
+		105935C42146430B005B7A3B /* CTImageSmearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTImageSmearViewController.h; sourceTree = "<group>"; };
+		10874F6F21456FF00017D631 /* PhotoTweaksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTweaksViewController.m; sourceTree = "<group>"; };
+		10874F7021456FF00017D631 /* UIColor+Tweak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tweak.h"; sourceTree = "<group>"; };
+		10874F7121456FF00017D631 /* PhotoTweakView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTweakView.m; sourceTree = "<group>"; };
+		10874F7221456FF00017D631 /* UIColor+Tweak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tweak.m"; sourceTree = "<group>"; };
+		10874F7321456FF00017D631 /* PhotoTweaksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTweaksViewController.h; sourceTree = "<group>"; };
+		10874F7421456FF00017D631 /* PhotoTweakView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTweakView.h; sourceTree = "<group>"; };
+		76CE728933CDAE61AC00E7F5 /* libPods-WSQCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WSQCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F3AE162EC7E812E8FEE813 /* Pods-WSQCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSQCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSQCamera/Pods-WSQCamera.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10202F33213E225F000EC4A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D23C0AC3F50FF8C9D97C097 /* libPods-WSQCamera.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10202F2D213E225F000EC4A2 = {
+			isa = PBXGroup;
+			children = (
+				10202F38213E225F000EC4A2 /* WSQCamera */,
+				10202F37213E225F000EC4A2 /* Products */,
+				DD5903BEFE2669F75566CE4B /* Pods */,
+				542DDC4FE4A347A63305C4DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10202F37213E225F000EC4A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10202F36213E225F000EC4A2 /* WSQCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10202F38213E225F000EC4A2 /* WSQCamera */ = {
+			isa = PBXGroup;
+			children = (
+				10202F4F213E22AB000EC4A2 /* WSQCamera */,
+				10202F39213E225F000EC4A2 /* AppDelegate.h */,
+				10202F3A213E225F000EC4A2 /* AppDelegate.m */,
+				10202F3C213E225F000EC4A2 /* ViewController.h */,
+				10202F3D213E225F000EC4A2 /* ViewController.m */,
+				10202F3F213E225F000EC4A2 /* Main.storyboard */,
+				10202F42213E2260000EC4A2 /* Assets.xcassets */,
+				10202F44213E2260000EC4A2 /* LaunchScreen.storyboard */,
+				10202F47213E2260000EC4A2 /* Info.plist */,
+				10202F48213E2260000EC4A2 /* main.m */,
+				10202F54213E2C61000EC4A2 /* Macros.h */,
+				10202F55213E2C61000EC4A2 /* UIView+FrameChanged.h */,
+				10202F53213E2C61000EC4A2 /* UIView+FrameChanged.m */,
+			);
+			path = WSQCamera;
+			sourceTree = "<group>";
+		};
+		10202F4F213E22AB000EC4A2 /* WSQCamera */ = {
+			isa = PBXGroup;
+			children = (
+				10202F50213E22C3000EC4A2 /* WSQCameraViewController.h */,
+				10202F51213E22C3000EC4A2 /* WSQCameraViewController.m */,
+				10202F57213E4F1C000EC4A2 /* WSQCameraFiltersCollectionView.h */,
+				10202F58213E4F1C000EC4A2 /* WSQCameraFiltersCollectionView.m */,
+				10202F5D213E4F52000EC4A2 /* WSQCameraFiltersCollectionsViewCell.h */,
+				10202F5E213E4F52000EC4A2 /* WSQCameraFiltersCollectionsViewCell.m */,
+				10202F5F213E4F52000EC4A2 /* WSQCameraFiltersCollectionsViewCell.xib */,
+				10202F62213E5772000EC4A2 /* WSQCameraFiltersCollectionViewCellModel.h */,
+				10202F63213E5772000EC4A2 /* WSQCameraFiltersCollectionViewCellModel.m */,
+				1027E633213FC822009A9EE2 /* WSQImageEditiViewController.h */,
+				1027E634213FC822009A9EE2 /* WSQImageEditiViewController.m */,
+				105935B8214642E7005B7A3B /* SmearImageEdit */,
+				105935B7214642CF005B7A3B /* PhotoTweaks */,
+			);
+			path = WSQCamera;
+			sourceTree = "<group>";
+		};
+		105935B7214642CF005B7A3B /* PhotoTweaks */ = {
+			isa = PBXGroup;
+			children = (
+				10874F7321456FF00017D631 /* PhotoTweaksViewController.h */,
+				10874F6F21456FF00017D631 /* PhotoTweaksViewController.m */,
+				10874F7421456FF00017D631 /* PhotoTweakView.h */,
+				10874F7121456FF00017D631 /* PhotoTweakView.m */,
+				10874F7021456FF00017D631 /* UIColor+Tweak.h */,
+				10874F7221456FF00017D631 /* UIColor+Tweak.m */,
+			);
+			path = PhotoTweaks;
+			sourceTree = "<group>";
+		};
+		105935B8214642E7005B7A3B /* SmearImageEdit */ = {
+			isa = PBXGroup;
+			children = (
+				105935BE2146430B005B7A3B /* CTImageEditUtil.h */,
+				105935C32146430B005B7A3B /* CTImageEditUtil.m */,
+				105935C02146430B005B7A3B /* CTImageSmearBottom.h */,
+				105935BF2146430B005B7A3B /* CTImageSmearBottom.m */,
+				105935C12146430B005B7A3B /* CTImageSmearTop.h */,
+				105935BA2146430A005B7A3B /* CTImageSmearTop.m */,
+				105935C22146430B005B7A3B /* CTImageSmearView.h */,
+				105935B92146430A005B7A3B /* CTImageSmearView.m */,
+				105935C42146430B005B7A3B /* CTImageSmearViewController.h */,
+				105935BD2146430B005B7A3B /* CTImageSmearViewController.m */,
+				105935BB2146430B005B7A3B /* UIImage+EditImageWithColor.h */,
+				105935BC2146430B005B7A3B /* UIImage+EditImageWithColor.m */,
+			);
+			path = SmearImageEdit;
+			sourceTree = "<group>";
+		};
+		542DDC4FE4A347A63305C4DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76CE728933CDAE61AC00E7F5 /* libPods-WSQCamera.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD5903BEFE2669F75566CE4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AADEE2C98F042AE2A67DC8E /* Pods-WSQCamera.debug.xcconfig */,
+				A0F3AE162EC7E812E8FEE813 /* Pods-WSQCamera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10202F35213E225F000EC4A2 /* WSQCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10202F4C213E2260000EC4A2 /* Build configuration list for PBXNativeTarget "WSQCamera" */;
+			buildPhases = (
+				5FD2BB0A273028261D95E021 /* [CP] Check Pods Manifest.lock */,
+				10202F32213E225F000EC4A2 /* Sources */,
+				10202F33213E225F000EC4A2 /* Frameworks */,
+				10202F34213E225F000EC4A2 /* Resources */,
+				1BB6D9CC25B83A6F87F44CD0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSQCamera;
+			productName = WSQCamera;
+			productReference = 10202F36213E225F000EC4A2 /* WSQCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10202F2E213E225F000EC4A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Dev John";
+				TargetAttributes = {
+					10202F35213E225F000EC4A2 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 10202F31213E225F000EC4A2 /* Build configuration list for PBXProject "WSQCamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10202F2D213E225F000EC4A2;
+			productRefGroup = 10202F37213E225F000EC4A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10202F35213E225F000EC4A2 /* WSQCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10202F34213E225F000EC4A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10202F46213E2260000EC4A2 /* LaunchScreen.storyboard in Resources */,
+				10202F43213E2260000EC4A2 /* Assets.xcassets in Resources */,
+				10202F41213E225F000EC4A2 /* Main.storyboard in Resources */,
+				10202F61213E4F52000EC4A2 /* WSQCameraFiltersCollectionsViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BB6D9CC25B83A6F87F44CD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WSQCamera/Pods-WSQCamera-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSQCamera/Pods-WSQCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FD2BB0A273028261D95E021 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WSQCamera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10202F32213E225F000EC4A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105935CA2146430B005B7A3B /* CTImageEditUtil.m in Sources */,
+				10202F56213E2C61000EC4A2 /* UIView+FrameChanged.m in Sources */,
+				10202F64213E5772000EC4A2 /* WSQCameraFiltersCollectionViewCellModel.m in Sources */,
+				10874F7721456FF00017D631 /* UIColor+Tweak.m in Sources */,
+				10202F60213E4F52000EC4A2 /* WSQCameraFiltersCollectionsViewCell.m in Sources */,
+				10202F3E213E225F000EC4A2 /* ViewController.m in Sources */,
+				105935C62146430B005B7A3B /* CTImageSmearTop.m in Sources */,
+				10874F7521456FF00017D631 /* PhotoTweaksViewController.m in Sources */,
+				1027E635213FC822009A9EE2 /* WSQImageEditiViewController.m in Sources */,
+				105935C82146430B005B7A3B /* CTImageSmearViewController.m in Sources */,
+				105935C52146430B005B7A3B /* CTImageSmearView.m in Sources */,
+				10202F49213E2260000EC4A2 /* main.m in Sources */,
+				10874F7621456FF00017D631 /* PhotoTweakView.m in Sources */,
+				105935C72146430B005B7A3B /* UIImage+EditImageWithColor.m in Sources */,
+				10202F3B213E225F000EC4A2 /* AppDelegate.m in Sources */,
+				10202F59213E4F1C000EC4A2 /* WSQCameraFiltersCollectionView.m in Sources */,
+				10202F52213E22C3000EC4A2 /* WSQCameraViewController.m in Sources */,
+				105935C92146430B005B7A3B /* CTImageSmearBottom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10202F3F213E225F000EC4A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10202F40213E225F000EC4A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10202F44213E2260000EC4A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10202F45213E2260000EC4A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10202F4A213E2260000EC4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10202F4B213E2260000EC4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10202F4D213E2260000EC4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AADEE2C98F042AE2A67DC8E /* Pods-WSQCamera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLN6M5KECU;
+				INFOPLIST_FILE = WSQCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devjohn.WSQCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10202F4E213E2260000EC4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F3AE162EC7E812E8FEE813 /* Pods-WSQCamera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLN6M5KECU;
+				INFOPLIST_FILE = WSQCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devjohn.WSQCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10202F31213E225F000EC4A2 /* Build configuration list for PBXProject "WSQCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10202F4A213E2260000EC4A2 /* Debug */,
+				10202F4B213E2260000EC4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10202F4C213E2260000EC4A2 /* Build configuration list for PBXNativeTarget "WSQCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10202F4D213E2260000EC4A2 /* Debug */,
+				10202F4E213E2260000EC4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10202F2E213E225F000EC4A2 /* Project object */;
+}
